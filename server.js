@@ -3,6 +3,8 @@ const fs = require('fs');
 
 
 var app = express();
+
+var port = process.env.PORT || 3000;
 //
 // app.use(express.static(__dirname + '/public'));
 
@@ -12,6 +14,6 @@ app.get('/', function(req, res) {
     });
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log('Port is up!');
 });
