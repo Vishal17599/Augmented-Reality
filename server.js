@@ -1,11 +1,15 @@
 const express = require('express');
+const fs = require('fs');
+
 
 var app = express();
+//
+// app.use(express.static(__dirname + '/public'));
 
-app.use(express.static(__dirname + '/public'));
-
-app.get('/', (req, res) => {
-  res.render('Go to url/index.html');
+app.get('/', function(req, res) {
+    fs.readFile(__dirname + '/public/index.html', 'utf8', function(err, text){
+        res.send(text);
+    });
 });
 
 app.listen(3000, () => {
