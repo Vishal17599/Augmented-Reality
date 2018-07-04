@@ -15,8 +15,7 @@ This was basically a present for my cousin's birthday, so everything was a bit t
 - Star rain from both the directions of red and yellow flakes.
 
 ### Demo
-
-To be Updated
+![Screenshot](https://raw.githubusercontent.com/utkarshsingh99/Augmented-Reality/master/screenshot.jpeg)
 
 ### Reference
 - aFrame's documentation
