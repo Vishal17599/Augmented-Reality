@@ -20,7 +20,7 @@ This was basically a present for my cousin's birthday, so everything was a bit t
 ![Screenshot](https://raw.githubusercontent.com/utkarshsingh99/Augmented-Reality/master/screenshot.jpeg)
 
 #### Video demo
-![Video](https://raw.githubusercontent.com/utkarshsingh99/Augmented-Reality/master/demo.mp4)
+![Video](https://raw.githubusercontent.com/utkarshsingh99/Augmented-Reality/master/gif.gif)
 
 ### Reference
 - aFrame's documentation
